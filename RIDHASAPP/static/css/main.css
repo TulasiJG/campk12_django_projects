@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(50,50,50,.95);
+    box-shadow: 0 10px 20px rgba(50,50,50,.95);
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+nav a {
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://chiefwritingwolf.files.wordpress.com/2015/09/old-covered-books-hd-wallpaper-1024x683.jpg");
+  
+  /* Add the blur effect */
+  filter: blur;
+  -webkit-filter: blur;
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
